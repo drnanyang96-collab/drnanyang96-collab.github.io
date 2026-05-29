@@ -3,15 +3,21 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Nan Yang | Academic Homepage</title>
+    <title>Nan Yang / 楊楠 | Academic Homepage</title>
     <meta
       name="description"
-      content="PhD Candidate in Orthodontics, Kyushu University Hospital"
+      content="Nan Yang is a PhD candidate in Orthodontics at Kyushu University Hospital. Research interests include sense of agency, continuous motor control, human-computer interaction, and orthodontics."
+    >
+    <meta
+      name="keywords"
+      content="Nan Yang, 楊楠, Kyushu University Hospital, Orthodontics, Sense of Agency, 主体感, Continuous Motor Control, Human-Computer Interaction, 歯科矯正学"
     >
     <meta name="author" content="Nan Yang">
-    <meta name="keywords" content="Nan Yang, Yang Nan, Orthodontics, Kyushu University Hospital, Sense of Agency, Motor Control, Human-Computer Interaction">
-    <meta property="og:title" content="Nan Yang | Academic Homepage">
-    <meta property="og:description" content="PhD Candidate in Orthodontics, Kyushu University Hospital">
+    <meta property="og:title" content="Nan Yang / 楊楠 | Academic Homepage">
+    <meta
+      property="og:description"
+      content="PhD Candidate in Orthodontics, Kyushu University Hospital / 九州大学病院 矯正歯科 博士課程学生"
+    >
     <meta property="og:type" content="website">
     <link rel="stylesheet" href="styles.css">
   </head>
@@ -19,133 +25,196 @@
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="Nan Yang homepage">
         <span class="brand-mark">NY</span>
-        <span>Nan Yang</span>
+        <span>Nan Yang / 楊楠</span>
       </a>
       <nav class="nav" aria-label="Primary navigation">
         <a href="#about">About</a>
         <a href="#research">Research</a>
-        <a href="#education">Education</a>
         <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#cv">CV</a>
         <a href="#contact">Contact</a>
       </nav>
+      <button class="theme-toggle" type="button" data-theme-toggle aria-label="Toggle dark mode">
+        Dark
+      </button>
     </header>
 
     <main id="top">
       <section class="hero" aria-labelledby="hero-title">
         <div class="hero-inner">
           <div class="hero-copy" data-reveal>
-            <p class="section-kicker">Academic Homepage</p>
-            <h1 id="hero-title">杨楠<br><span>Nan Yang</span></h1>
-            <p class="role">PhD Candidate in Orthodontics</p>
-            <p class="affiliation">Kyushu University Hospital</p>
+            <p class="section-kicker">Academic Homepage / 学術ホームページ</p>
+            <h1 id="hero-title">Nan Yang <span>/ 楊楠</span></h1>
+            <div class="bilingual-role" aria-label="Academic affiliation">
+              <p>PhD Candidate in Orthodontics<br>Kyushu University Hospital</p>
+              <p>九州大学病院 矯正歯科<br>博士課程学生</p>
+            </div>
             <div class="hero-actions" aria-label="Homepage actions">
-              <a class="button primary" href="#research">View Research</a>
-              <a class="button secondary" href="#contact">Contact Me</a>
+              <a class="button primary" href="#research">View Research / 研究を見る</a>
+              <a class="button secondary" href="assets/Nan_Yang_CV.pdf">Download CV / CVをダウンロード</a>
+              <a class="button secondary" href="#contact">Contact / 連絡先</a>
             </div>
           </div>
 
-          <aside class="research-panel" aria-labelledby="interests-title" data-reveal>
-            <p class="panel-label">Research Interests</p>
-            <h2 id="interests-title">Self-control, authorship, and dynamic interaction</h2>
-            <ul class="interest-list">
-              <li>Sense of Agency (SoA)</li>
-              <li>Motor Control</li>
-              <li>Human-Computer Interaction</li>
-              <li>Orthodontics</li>
-            </ul>
+          <aside class="profile-card" data-reveal aria-label="Profile and research interests">
+            <div class="profile-photo" aria-label="Profile photo placeholder">
+              <span>NY</span>
+            </div>
+            <div>
+              <p class="panel-label">Research Interests / 研究関心</p>
+              <ul class="interest-list">
+                <li><span>Sense of Agency</span><span>主体感</span></li>
+                <li><span>Continuous Motor Control</span><span>連続運動制御</span></li>
+                <li><span>Human-Computer Interaction</span><span>ヒューマン・コンピュータ・インタラクション</span></li>
+                <li><span>Orthodontics</span><span>歯科矯正学</span></li>
+              </ul>
+            </div>
           </aside>
         </div>
       </section>
 
       <section id="about" class="section" data-reveal>
         <div class="section-heading">
-          <p class="section-kicker">About Me</p>
-          <h2>PhD candidate working across orthodontics and cognitive science.</h2>
+          <p class="section-kicker">About / 自己紹介</p>
+          <h2>Research at the intersection of human cognition and clinical orthodontics.</h2>
         </div>
-        <div class="prose">
-          <p>
-            I am a PhD candidate in the Department of Orthodontics at Kyushu University Hospital, Japan.
-          </p>
-          <p>
-            My current research focuses on the Sense of Agency (SoA) during continuous motor control. I am particularly interested in how humans evaluate self-control and authorship during dynamic interactions.
-          </p>
-          <p>
-            In addition to cognitive science research, I am also interested in clinical orthodontics and translational research.
-          </p>
+        <div class="bilingual-block">
+          <article class="lang-panel">
+            <p class="lang-label">English</p>
+            <p>
+              I am a PhD candidate in Orthodontics at Kyushu University Hospital, Japan. My current research focuses on the sense of agency during continuous motor control. I am interested in how humans evaluate self-control and authorship during dynamic interactions.
+            </p>
+            <p>
+              I am also interested in clinical orthodontics, experimental psychology, and translational research connecting human cognition with clinical practice.
+            </p>
+          </article>
+          <article class="lang-panel">
+            <p class="lang-label">日本語</p>
+            <p>
+              私は九州大学病院矯正歯科に所属する博士課程学生です。現在は、連続運動制御における主体感に関する研究に取り組んでいます。特に、人が動的な相互作用の中で、自分がどの程度操作していると感じるのか、またその判断がどのような手がかりに基づいて形成されるのかに関心があります。
+            </p>
+            <p>
+              また、臨床矯正歯科、実験心理学、および人間の認知と臨床実践をつなぐトランスレーショナルリサーチにも関心を持っています。
+            </p>
+          </article>
         </div>
       </section>
 
       <section id="research" class="section section-alt" data-reveal>
         <div class="section-heading">
-          <p class="section-kicker">Research</p>
-          <h2>Research Theme</h2>
+          <p class="section-kicker">Research / 研究</p>
+          <h2>Sense of agency in continuous motor control.</h2>
         </div>
         <article class="research-card">
-          <div class="card-main">
-            <h3>Characteristics of cues influencing the sense of agency in continuous motor control</h3>
-            <p>
-              The sense of agency refers to the feeling that one is controlling one's own actions and their consequences.
-            </p>
-            <p>
-              My research investigates how temporal characteristics of control disturbances influence retrospective agency judgments during continuous motor control tasks.
-            </p>
+          <div class="theme-grid">
+            <div>
+              <p class="lang-label">Research Theme</p>
+              <h3>Characteristics of cues influencing the sense of agency in continuous motor control</h3>
+            </div>
+            <div>
+              <p class="lang-label">研究テーマ</p>
+              <h3>連続運動制御における主体感に影響を与える手がかりの特徴</h3>
+            </div>
           </div>
-          <div class="keyword-block" aria-label="Research keywords">
-            <p class="panel-label">Keywords</p>
+          <div class="bilingual-block compact">
+            <article class="lang-panel">
+              <p class="lang-label">English Summary</p>
+              <p>
+                The sense of agency refers to the feeling that one is controlling one’s own actions and their consequences. My research investigates how temporal characteristics of control disturbances influence retrospective agency judgments during continuous motor control tasks.
+              </p>
+            </article>
+            <article class="lang-panel">
+              <p class="lang-label">Japanese Summary</p>
+              <p>
+                主体感とは、自分の行為とその結果を自分自身が制御していると感じる感覚を指します。本研究では、連続的な運動制御課題において、制御中に生じる偏差の時間的特徴が、事後的な主体感判断にどのように影響するのかを検討しています。
+              </p>
+            </article>
+          </div>
+          <div class="keyword-block">
+            <p class="panel-label">Keywords / キーワード</p>
             <ul class="keyword-list">
-              <li>Sense of Agency</li>
-              <li>Continuous Control</li>
-              <li>Motor Control</li>
-              <li>Human Cognition</li>
-              <li>Experimental Psychology</li>
+              <li>Sense of Agency / 主体感</li>
+              <li>Continuous Control / 連続制御</li>
+              <li>Motor Control / 運動制御</li>
+              <li>Human Cognition / 人間の認知</li>
+              <li>Experimental Psychology / 実験心理学</li>
             </ul>
           </div>
         </article>
       </section>
 
-      <section id="education" class="section" data-reveal>
+      <section id="publications" class="section" data-reveal>
         <div class="section-heading">
-          <p class="section-kicker">Education</p>
-          <h2>Academic Training</h2>
+          <p class="section-kicker">Publications / 業績</p>
+          <h2>Selected publications and academic output.</h2>
+        </div>
+        <div class="publication-card">
+          <div>
+            <p class="lang-label">English</p>
+            <p>Publications will be updated.</p>
+          </div>
+          <div>
+            <p class="lang-label">日本語</p>
+            <p>業績は随時更新予定です。</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="education" class="section section-alt" data-reveal>
+        <div class="section-heading">
+          <p class="section-kicker">Education / 学歴</p>
+          <h2>Academic training in Japan.</h2>
         </div>
         <div class="timeline">
           <article>
             <span class="time">Kyushu University</span>
             <div>
               <h3>PhD Candidate in Orthodontics</h3>
-              <p>Kyushu University Hospital, Japan</p>
+              <p>九州大学<br>歯科矯正学分野 博士課程</p>
             </div>
           </article>
           <article>
             <span class="time">Kyoto University</span>
             <div>
               <h3>Research Training</h3>
-              <p>Japan</p>
+              <p>京都大学<br>研究研修</p>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="publications" class="section section-alt" data-reveal>
+      <section id="cv" class="section" data-reveal>
         <div class="section-heading">
-          <p class="section-kicker">Publications</p>
-          <h2>Selected Publications</h2>
+          <p class="section-kicker">CV / 履歴書</p>
+          <h2>Curriculum vitae and academic profiles.</h2>
         </div>
-        <div class="publications-layout">
-          <div class="publication-note">
-            <p>Publications will be updated.</p>
-          </div>
-          <div class="academic-links" aria-label="Academic profile links">
-            <a href="#" aria-label="Google Scholar link placeholder">Google Scholar</a>
-            <a href="#" aria-label="ResearchGate link placeholder">ResearchGate</a>
-          </div>
+        <div class="link-grid">
+          <a class="resource-link primary-link" href="assets/Nan_Yang_CV.pdf">Download CV / CVをダウンロード</a>
+          <!-- TODO: Replace # with the real Google Scholar profile URL. -->
+          <a class="resource-link" href="#">Google Scholar / Google Scholar</a>
+          <!-- TODO: Replace # with the real ResearchGate profile URL. -->
+          <a class="resource-link" href="#">ResearchGate / ResearchGate</a>
+          <!-- TODO: Replace # with the real GitHub profile URL if desired. -->
+          <a class="resource-link" href="#">GitHub / GitHub</a>
+          <a class="resource-link" href="mailto:younannno@gmail.com">Email / メール</a>
         </div>
       </section>
 
-      <section id="contact" class="section contact-section" data-reveal>
+      <section id="contact" class="section contact-section section-alt" data-reveal>
         <div class="section-heading">
-          <p class="section-kicker">Contact</p>
-          <h2>Email</h2>
+          <p class="section-kicker">Contact / 連絡先</p>
+          <h2>Research collaboration and academic exchange.</h2>
+        </div>
+        <div class="bilingual-block compact">
+          <article class="lang-panel">
+            <p class="lang-label">English</p>
+            <p>Please feel free to contact me regarding research collaboration, academic exchange, or clinical research interests.</p>
+          </article>
+          <article class="lang-panel">
+            <p class="lang-label">日本語</p>
+            <p>研究協力、学術交流、臨床研究に関するお問い合わせがありましたら、お気軽にご連絡ください。</p>
+          </article>
         </div>
         <address class="contact-list">
           <a href="mailto:younannno@gmail.com">younannno@gmail.com</a>
@@ -159,8 +228,8 @@
     </button>
 
     <footer class="footer">
-      <span>© 2026 Nan Yang</span>
-      <span>Kyushu University Hospital</span>
+      <span>© 2026 Nan Yang / 楊楠</span>
+      <span>Kyushu University Hospital / 九州大学病院</span>
     </footer>
 
     <script src="script.js"></script>
